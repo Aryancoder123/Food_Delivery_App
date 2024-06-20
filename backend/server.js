@@ -1,6 +1,6 @@
 import express from "express"
 import cors from "cors"
-import { connect } from "mongoose"
+// import { connect } from "mongoose"
 import { connectDB } from "./config/db.js"
 import foodRouter from "./Routes/foodRoute.js"
 import userRouter from "./Routes/userRoute.js"
