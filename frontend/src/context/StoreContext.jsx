@@ -8,7 +8,7 @@ const StoreContextProvider = (props) => {
 
     const [cartItems,setCartItems] = useState({});
 
-    const url = "https://food-delivery-api-topaz.vercel.app"
+    const url = "http://localhost:4000"
 
     const [token,setToken] = useState("");
 
